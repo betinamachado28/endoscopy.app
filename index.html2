@@ -6,11 +6,11 @@
     <title>Centro Diagnóstico | Mitos e Fatos sobre Endoscopia</title>
     <style>
         :root {
-            --primary: #1e3a8a;
+            --primary: #050e29;
             --secondary: #0284c7;
             --accent: #f0f9ff;
-            --text: #334155;
-            --card-bg: #ffffff;
+            --text: #365580;
+            --card-bg: #f0e9e9;
         }
 
         * {
@@ -81,7 +81,7 @@
         th, td {
             padding: 12px 15px;
             text-align: left;
-            border-bottom: 1px solid #e2e8f0;
+            border-bottom: 1px solid #043472;
         }
 
         th {
