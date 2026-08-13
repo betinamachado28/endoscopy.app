@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Diagnóstico | Mitos e Fatos sobre Endoscopia</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #0284c7;
+            --accent: #f0f9ff;
+            --text: #334155;
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', System-ui, sans-serif;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Hero Banner */
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        /* Conteúdo Principal */
+        .main-wrapper {
+            max-width: 900px;
+            margin: -3rem auto 3rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            font-size: 1.4rem;
+        }
+
+        /* Tabela Comparativa */
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        th {
+            background-color: var(--accent);
+            color: var(--primary);
+        }
+
+        /* Perguntas Frequentes (Accordion) */
+        details {
+            background-color: var(--accent);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 0.8rem;
+            cursor: pointer;
+        }
+
+        summary {
+            font-weight: bold;
+            color: var(--primary);
+            outline: none;
+        }
+
+        details p {
+            margin-top: 0.8rem;
+            font-size: 0.95rem;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Desmistificando a Endoscopia</h1>
+        <p>Tire suas dúvidas, conheça os mitos e entenda a importância da saúde digestiva.</p>
+    </header>
+
+    <main class="main-wrapper">
+        
+        <section class="card">
+            <h2>Mitos e Verdades</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Afirmação</th>
+                            <th>Status</th>
+                            <th>A Explicação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>"O exame dói bastante."</td>
+                            <td><strong>Mito</strong></td>
+                            <td>É feito sob sedação e anestesia local, tornando o procedimento indolor.</td>
+                        </tr>
+                        <tr>
+                            <td>"Serve para diagnosticar gastrite."</td>
+                            <td><strong>Fato</strong></td>
+                            <td>É um dos métodos mais precisos para identificar gastrites e úlceras.</td>
+                        </tr>
+                        <tr>
+                            <td>"Dá para sufocar durante o exame."</td>
+                            <td><strong>Mito</strong></td>
+                            <td>O tubo vai para o sistema digestivo, mantendo as vias aéreas livres.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Perguntas Frequentes (FAQ)</h2>
+
+            <details>
+                <summary>Quanto tempo dura o procedimento?</summary>
+                <p>O exame propriamente dito dura cerca de 10 a 15 minutos. Contando o tempo de preparação e recuperação da sedação, a permanência total na clínica varia entre 1 e 2 horas.</p>
+            </details>
+
+            <details>
+                <summary>O que é feito se for encontrada alguma alteração?</summary>
+                <p>O médico pode realizar pequenas biópsias (retirada de fragmentos de tecido) ou até remover pólipos no mesmo momento, sem causar nenhuma dor ao paciente.</p>
+            </details>
+
+            <details>
+                <summary>Posso trabalhar no dia do exame?</summary>
+                <p>Devido ao uso da sedação, recomenda-se repouso pelo restante do dia. Não é permitido dirigir ou tomar decisões importantes nas horas seguintes ao procedimento.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal de Orientação em Saúde Digestiva.</p>
+    </footer>
+
+</body>
+</html>
