@@ -1,119 +1,208 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informativo sobre Endoscopia</title>
+    <title>Portal da Endoscopia Digestiva</title>
     <style>
+        /* Estilos Gerais */
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #2c3e50;
             background-color: #f4f7f6;
         }
+
+        /* Cabeçalho e Navegação */
         header {
-            background-color: #005f73;
-            color: white;
-            padding: 2rem 1rem;
+            background: linear-gradient(135deg, #005f73, #0a9396);
+            color: #ffffff;
+            padding: 3rem 1rem 2rem 1rem;
             text-align: center;
         }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
         nav {
-            background-color: #0a9396;
-            padding: 0.5rem;
+            background-color: #001219;
             text-align: center;
+            padding: 0.8rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
+
         nav a {
-            color: white;
+            color: #e9d8a6;
             text-decoration: none;
             margin: 0 15px;
-            font-weight: bold;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.3s;
         }
+
         nav a:hover {
-            text-decoration: underline;
+            color: #ee9b00;
         }
+
+        /* Conteúdo Principal */
         .container {
-            max-width: 900px;
+            max-width: 950px;
             margin: 2rem auto;
-            padding: 0 1rem;
+            padding: 0 1.5rem;
         }
+
         section {
-            background: white;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
+            background: #ffffff;
+            padding: 2rem;
+            margin-bottom: 2rem;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         }
+
         h2 {
             color: #005f73;
             margin-bottom: 1rem;
-            border-bottom: 2px solid #e9d8a6;
-            padding-bottom: 0.3rem;
+            font-size: 1.5rem;
+            border-left: 4px solid #0a9396;
+            padding-left: 10px;
         }
-        ul {
-            margin-left: 20px;
+
+        p {
             margin-bottom: 1rem;
         }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
         li {
             margin-bottom: 0.5rem;
         }
+
+        /* Destaques / Callouts */
+        .info-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #2e7d32;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        .warning-box {
+            background-color: #fff3e0;
+            border-left: 4px solid #ef6c00;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+
+        /* Rodapé */
         footer {
+            background-color: #001219;
+            color: #ffffff;
             text-align: center;
             padding: 1.5rem;
-            background-color: #005f73;
-            color: white;
-            margin-top: 2rem;
+            font-size: 0.85rem;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            margin: 0;
+            opacity: 0.8;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Guia Informativo: Endoscopia Digestiva Alta</h1>
-        <p>Saiba o que é, como funciona e como se preparar para o exame.</p>
+        <h1>Endoscopia Digestiva Alta</h1>
+        <p>Informações e orientações fundamentais para o doente</p>
     </header>
 
     <nav>
         <a href="#o-que-e">O que é</a>
         <a href="#indicacoes">Indicações</a>
-        <a href="#preparo">Preparo</a>
+        <a href="#preparacao">Preparação</a>
+        <a href="#procedimento">O Exame</a>
+        <a href="#pos-exame">Pós-Exame</a>
     </nav>
 
     <div class="container">
+
         <section id="o-que-e">
-            <h2>O que é a Endoscopia?</h2>
-            <p>A endoscopia digestiva alta é um exame médico que permite visualizar o interior do esôfago, estômago e a primeira parte do intestino delgado (duodeno). É realizada utilizando um tubo flexível com uma câmera na ponta, chamado endoscópio.</p>
+            <h2>O que é a Endoscopia Digestiva Alta?</h2>
+            <p>A endoscopia digestiva alta é um exame médico de diagnóstico e, por vezes, de tratamento, que permite examinar a mucosa do esófago, estômago e doze (duodeno).</p>
+            <p>É realizada através de um tubo flexível de alta tecnologia (endoscópio) que possui uma microcâmara e uma luz na extremidade, transmitindo imagens detalhadas para um monitor em tempo real.</p>
         </section>
 
         <section id="indicacoes">
-            <h2>Quando é indicada?</h2>
-            <p>O exame costuma ser solicitado para investigar sintomas e diagnosticar condições como:</p>
+            <h2>Quando é Indicada?</h2>
+            <p>O médico gastroenterologista pode recomendar a realização deste exame para investigar diversos sintomas ou patologias, tais como:</p>
             <ul>
-                <li>Dores frequentes no estômago ou azia contínua;</li>
-                <li>Dificuldade ou dor para engolir;</li>
-                <li>Refluxo gastroesofágico;</li>
-                <li>Pesquisa de úlceras ou gastrite;</li>
-                <li>Investigação de sangramento digestivo.</li>
+                <li>Dores persistentes no abdómen superior ou azia frequente;</li>
+                <li>Dificuldade ou dor ao engolir (disfagia);</li>
+                <li>Náuseas, vómitos recorrentes ou perda de peso sem causa explicada;</li>
+                <li>Suspeita de úlceras, gastrites ou refluxo gastroesofágico;</li>
+                <li>Pesquisa de infeção por <em>Helicobacter pylori</em> através de biópsia;</li>
+                <li>Investigação de anemiás ou hemorragias do trato digestivo.</li>
             </ul>
         </section>
 
-        <section id="preparo">
-            <h2>Preparo Geral para o Exame</h2>
-            <p>Para garantir a segurança e eficácia do procedimento, alguns cuidados são essenciais:</p>
+        <section id="preparacao">
+            <h2>Como se Preparar para o Exame</h2>
+            <div class="warning-box">
+                <strong>Atenção:</strong> O cumprimento das instruções de preparação é fundamental para garantir a segurança e a eficácia do exame.
+            </div>
             <ul>
-                <li><strong>Jejum:</strong> É necessário jejum absoluto (água e alimentos) pelo tempo recomendado pelo médico (geralmente de 8 a 12 horas).</li>
-                <li><strong>Acompanhante:</strong> Como o exame utiliza sedação leve, é obrigatório estar acompanhado por um adulto.</li>
-                <li><strong>Medicações:</strong> Informe ao médico todos os medicamentos que você utiliza regularmente.</li>
+                <li><strong>Jejum Absoluto:</strong> É necessário cumprir um jejum de alimentos e líquidos (incluindo água) durante 8 horas antes do procedimento, de modo a garantir que o estômago está completamente vazio.</li>
+                <li><strong>Medicação Habitual:</strong> Deve informar o médico sobre todos os medicamentos que toma regularmente, especialmente anticoagulantes ou medicação para a diabetes.</li>
+                <li><strong>Acompanhante:</strong> Como o exame é maioritariamente realizado sob sedação ligeira, é obrigatório vir acompanhado por um adulto responsável.</li>
             </ul>
         </section>
+
+        <section id="procedimento">
+            <h2>Como é Realizado o Exame?</h2>
+            <p>O procedimento é rápido, indolor e dura habitualmente entre 5 a 15 minutos:</p>
+            <ul>
+                <li>É aplicada uma anestesia local na garganta (spray) para diminuir o reflexo do vómito e é administrado um sedativo intravenoso para que o doente relaxe ou adormeça.</li>
+                <li>O doente é posicionado de lado (decúbito lateral esquerdo).</li>
+                <li>O endoscópio é introduzido suavemente através da boca até ao duodeno.</li>
+                <li>Caso seja necessário, podem ser colhidas pequenas amostras de tecido (biópsias) indolores para análise.</li>
+            </ul>
+        </section>
+
+        <section id="pos-exame">
+            <h2>Cuidados Após o Exame</h2>
+            <div class="info-box">
+                Após o procedimento, o doente permanece numa sala de recuperação até que o efeito da sedação passe.
+            </div>
+            <ul>
+                <li>Não deve conduzir nem operar máquinas durante o resto do dia devido aos efeitos da sedação.</li>
+                <li>Pode retomar a alimentação ligeira assim que o efeito da anestesia na garganta passar e sob indicação médica.</li>
+                <li>Poderá sentir um ligeiro desconforto na garganta ou sensação de enfartamento nas primeiras horas, o que é totalmente normal.</li>
+            </ul>
+        </section>
+
     </div>
 
     <footer>
-        <p> 2026 Página Informativa sobre Saúde. Este site tem caráter meramente informativo.</p>
+        <p>&copy; 2026 Guia Informativo de Saúde. Este conteúdo é puramente informativo e não substitui a consulta de um profissional médico.</p>
     </footer>
 
 </body>
