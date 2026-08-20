@@ -1,0 +1,85 @@
+<html>
+<html lang="pt">
+<head>
+    <title>Portal da Endoscopia Digestiva - Guia do Paciente</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <header>
+        <h1>Exame de Endoscopia</h1>
+        <p>Tudo o que precisa de saber para realizar o seu procedimento com segurança</p>
+    </header>
+
+    <nav>
+        <a href="#o-que-e">O que é</a>
+        <a href="#indicacoes">Indicações</a>
+        <a href="#preparacao">Preparação</a>
+        <a href="#procedimento">O Exame</a>
+        <a href="#pos-exame">Pós-Exame</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="o-que-e">
+            <h2>O que é a Endoscopia?</h2>
+            <p>A endoscopia digestiva é um exame médico indispensável para examinar visualmente a mucosa do trato digestivo superior, compreendendo o esófago, o estômago e o duodeno.</p>
+            <p>É realizada através de um tubo fino e flexível com luz e câmara integradas (endoscópio), transmitindo imagens em alta definição para um monitor, permitindo a deteção de eventuais lesões ou alterações.</p>
+        </section>
+
+        <section id="indicacoes">
+            <h2>Quando é Indicada?</h2>
+            <p>A realização do exame é recomendada por gastroenterologistas diante dos seguintes quadros clínicos:</p>
+            <ul>
+                <li>Azia persistente, refluxo gastroesofágico ou sensação de queimação;</li>
+                <li>Dores de estômago ou desconforto frequente na região abdominal;</li>
+                <li>Dificuldade, dor ou sensação de bloqueio ao engolir alimentos;</li>
+                <li>Náuseas, vómitos recorrentes ou Perda de peso involuntária;</li>
+                <li>Acompanhamento de gastrites, úlceras ou suspeita de infeção por <em>Helicobacter pylori</em>;</li>
+                <li>Pesquisa de causas para quadros de anemia ou hemorragias digestivas.</li>
+            </ul>
+        </section>
+
+        <section id="preparacao">
+            <h2>Como se Preparar para o Exame</h2>
+            <div class="warning-box">
+                <strong>Atenção:</strong> O jejum correto é indispensável para a visualização clara dos órgãos e para evitar complicações durante o procedimento.
+            </div>
+            <ul>
+                <li><strong>Jejum Absoluto:</strong> É necessário realizar um jejum de alimentos sólidos e líquidos (inclusive água) de pelo menos 8 horas antes do procedimento.</li>
+                <li><strong>Medicamentos:</strong> Informe o médico sobre todas as medicações em uso contínuo, principalmente anticoagulantes ou remédios para diabetes.</li>
+                <li><strong>Acompanhante:</strong> O comparecimento com um acompanhante adulto e responsável é obrigatório devido ao uso da sedação.</li>
+            </ul>
+        </section>
+
+        <section id="procedimento">
+            <h2>Como é Realizado o Exame?</h2>
+            <p>O procedimento é simples, indolor e rápido, levando em média entre 10 e 20 minutos:</p>
+            <ul>
+                <li>Aplica-se um spray anestésico na garganta e administra-se uma sedação leve pela veia para garantir total conforto.</li>
+                <li>O paciente é colocado confortavelmente deitado de lado.</li>
+                <li>O tubo do endoscópio é introduzido suavemente pela boca em direção ao estômago.</li>
+                <li>Se necessário, pequenas amostras de tecido (biópsias) podem ser colhidas de forma indolor para análise em laboratório.</li>
+            </ul>
+        </section>
+
+        <section id="pos-exame">
+            <h2>Cuidados Após o Exame</h2>
+            <div class="info-box">
+                Após o término do procedimento, o paciente permanece em observação até recuperar totalmente dos efeitos da sedação.
+            </div>
+            <ul>
+                <li>Não conduza nem opere máquinas pesadas no dia do exame devido à alteração nos reflexos provocada pelos sedativos.</li>
+                <li>A alimentação pode ser retomada gradualmente, iniciando por refeições mais leves assim que o efeito da anestesia na garganta passar.</li>
+                <li>É normal sentir um ligeiro desconforto na garganta ou estômago cheio nas primeiras horas.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Guia Informativo de Saúde. Este conteúdo é puramente informativo e não substitui a consulta de um profissional médico.</p>
+    <footer>
+
+</body>
+</html>
