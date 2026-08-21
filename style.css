@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +10,6 @@ body {
     color: #1e364e;
     background-color: #e5f4ef;
 }
-
 
 header {
     background: linear-gradient(135deg, #005f73, #0a9396);
@@ -52,7 +50,6 @@ nav a:hover {
     color: #babd07e4;
 }
 
-
 .container {
     max-width: 950px;
     margin: 2rem auto;
@@ -88,7 +85,6 @@ li {
     margin-bottom: 0.5rem;
 }
 
-
 .info-box {
     background-color: #e8f5e9;
     border-left: 4px solid #13df1d;
@@ -117,9 +113,8 @@ footer {
 footer p {
     margin: 0;
     opacity: 0.8;
-}
+}  
 
-index.html2 
 
 
 * {
@@ -173,7 +168,6 @@ nav a {
 nav a:hover {
     color: #81e6d9;
 }
-
 
 .container {
     max-width: 950px;
