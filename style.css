@@ -7,13 +7,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #1e364e;
-    background-color: #e5f4ef;
+    color: #043260;
+    background-color: #a1c3b8;
 }
 
 header {
-    background: linear-gradient(135deg, #005f73, #0a9396);
-    color: #ffffff;
+    background: linear-gradient(135deg, #1438ec, #085657);
+    color: #f4d1d1;
     padding: 3rem 1rem 2rem 1rem;
     text-align: center;
 }
