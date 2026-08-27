@@ -8,7 +8,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #043260;
-    background-color: #a1c3b8;
+    background-color: #0af0a7;
 }
 
 header {
@@ -120,9 +120,9 @@ footer p {
 
   :root {
             --primary: #4f46e5;
-            --primary-light: #e0e7ff;
+            --primary-light: #a5b7f2;
             --dark: #1e1b4b;
-            --text: #374151;
+            --text: #070b12;
             --bg: #f3f4f6;
             --white: #ffffff;
         }
